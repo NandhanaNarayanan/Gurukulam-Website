@@ -1,0 +1,275 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .animated{
+       transition: color 2s;
+       text-align: center;
+      font-style: var(--bs-scroll-height);
+       font-family:Arial, Helvetica, sans-serif
+       
+       
+    }
+    .animated:hover{
+       color:darkorange;
+    }
+ </style>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg  ">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-white" href="#" style="font-size: 40px;"><i class="fa-solid fa-graduation-cap"></i>&nbsp;Gurukulam</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link text-white active   " aria-current="page" href="#"><i class="fa-solid fa-house  "></i>&nbsp;Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white  shijo " href="#"><i class="fa-solid fa-user "></i>&nbsp;About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white  shijo " href="#"><i class="fa-solid fa-handshake"></i>&nbsp;Admission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white   " href="#"><i class="fa fa-sharp fa-solid fa-bell-concierge "></i>&nbsp;Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white dropdown-toggle   " href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-book-open-reader "></i>&nbsp;
+            Courses
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Computer Science</a></li>
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
+            <li><a class="dropdown-item" href="#">Civil</a></li>
+            <li><a class="dropdown-item" href="#">Mechanical</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
+            <li><a class="dropdown-item" href="#">Enquery for more</a></li>
+          </ul>
+      
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white   " href="#"><i class="fa-solid fa-address-card "></i>&nbsp;Contact Us</a>
+      </li>
+    </ul> 
+      <form class="d-flex">
+        
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Carousel -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <div class="box">
+      <h1 class="animated"style="color:rgba(255, 255, 255, 0.5);">GURUKULAM<br>EDUCATION</h1>
+    </div>
+    
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p> Explore Your Knowldge</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="michael-marsh-U0dBV_QeiYk-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p> Explore Your Knowldge</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="ivan-aleksic-PDRFeeDniCk-unsplash.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5></h5>
+        <p> Explore Your Knowldge</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- Cards -->
+<div class="d-flex justify-content-center align-items-center  mt-4 mb-2" style="flex-direction: column;">
+  <h2 class="text-center">OUR FACILITIES</h2>
+  <hr style="height: 5px; background-color: black; width: 200px; border-radius: 5px;">
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="vasily-koloda-8CqDvPuo_kI-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Qualified Professionals</h5>
+      <p class="card-text">Qualified professionals are those who have obtained a B.S., B.A. or equivalent degree or certification in biology, engineering, environmental studies, fisheries, geomorphology, landscape architecture, forestry or related field and two years of related work experience in order to work in a particular profession.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="wander-fleur-NboyPdtHqFc-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Library Space</h5>
+      <p class="card-text">Our library facilities include computers and printing and copy services. You can also book a study room for group or assistive study. You can use scanners, operated by your library account, to make copies from our collections. You can also use your own camera, subject to some regulations.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 4 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="wes-hicks-MEL-jJnm7RQ-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Music Learning</h5>
+      <p class="card-text">Provide a student with the opportunity to learn an instrument for the entire school year. ... Provide a school with entire classroom set of Cordoba ukuleles with storage stand. ... Impact the lives of an entire classroom and sponsor a ukulele or recorder class for the school year and help provide weekly music lessons for up to 35 students.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 2 mins ago</small>
+    </div>
+  </div>
+</div>
+  
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="christian-tenguan-RNiK93wcz-U-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sports</h5>
+      <p class="card-text">Sport is all forms of usually competitive physical activity which, through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing entertainment to participants and in some cases, spectators.0 It is commonly defined as an athletic activity that involves a degree of competition such as netball or basketball.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 5 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="tim-mossholder-UcUROHSJfRA-unsplash.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> Students Equality</h5>
+      <p class="card-text">Equality is the recognition that all human beings have the same rights, respect, and access to opportunities. Equity is about everyone achieving equal outcomes, especially in status, rights and opportunities.0 While progress has been made towards gender parity and women’s empowerment, there are still widespread forms of discrimination and violence against women and girls around the world..</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 7 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="hospital.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hospital Facility</h5>
+      <p class="card-text">Provide a student with the opportunity to learn an instrument for the entire school year. ... Provide a school with entire classroom set of Cordoba ukuleles with storage stand. ... Impact the lives of an entire classroom and sponsor a ukulele or recorder class for the school year and help provide weekly music lessons for up to 35 students.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated a mins ago</small>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4">
+<div class="container text-center text-md-left">
+  <div class="row text-center text-md-left">
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-wrapping">Gurukulam</h5>
+      <p>Gurukulam: Directed by Neil Dalal, Jillian Elizabeth. With Dayananda Saraswati. Follow a group of students and their teacher as they confront fundamental questions about the nature of reality and self-identity at a remote forest ashram in southern India.</p>
+
+    </div>
+    <div class="col-md-2 col-lg-2 col-md-3 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-wrapping">Link to visit
+      </h5>
+      <a href="#" style="text-decoration: none;font-family: Arial, Helvetica, sans-serif;color: white;">gurukulamedu.in</a>
+      <a href="#" style="text-decoration: none;font-family: Arial, Helvetica, sans-serif;color: white;">gurukulameducation.com</a>
+      <a href="#" style="text-decoration: none;font-family: Arial, Helvetica, sans-serif;color: white;">cogroupofgurukulam.com</a>
+      <a href="#" style="text-decoration: none;font-family: Arial, Helvetica, sans-serif;color: white;">gurukulamfoundation.in</a> 
+      <a href="#" style="text-decoration: none;font-family: Arial, Helvetica, sans-serif;color: white;">techguru.tech.com</a>
+    </div>
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-wrapping">Contact Us</h5>
+     <p style="font-size: small;"><a href="#" style="color:white;text-decoration:none;"><text-white><i class="fa-solid fa-house"></i></text-white>&nbsp;Gurukulam<br>USA<br>&nbsp;&nbsp;SR 042.00 Ft.721</p>
+      <p><a href="#" style="color:white;text-decoration:none;"><text-white><i class="fa-solid fa-phone"></i></text-white>&nbsp;9658743215</p>
+       <!--<p><a href="#" style="color:white;text-decoration:none;"><text-black><i class="fa-duotone fa-phone-rotary"></i></text-white>&nbsp;0456 0990079</p>--> 
+          <p><a href="#" style="color:white;text-decoration: none;"><text-white><i class="fa-solid fa-envelope"></i></text-white>&nbsp;guru.edu@gamil.com</p>
+   
+            <!--  
+    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+     
+     <p style="text-decoration:none;"><a href="#" style="color:white"><text-white><i class="fa-brands fa-facebook"></i>&nbsp;Facebook </p>
+      <p><a href="#" style="color:white"><text-white><i class="fa-brands fa-instagram"></i></text-white>&nbsp;Instagram</p>
+        <p><a href="#" style="color:white"><text-white><i class="fa-brands fa-square-twitter"></i>&nbsp;Twitter</p>
+          <p><a href="#" style="color:white"><text-white><i class="fa-solid fa-globe"></i>&nbsp;Website</p>
+    </div>-->
+
+  </div>
+</div>
+<hr class="mb-4">
+  <div class="row align-items-center">
+    <div class="col-md-7 col-lg-8">
+      <p>Copyright ©2023 All rights reserved  by:
+      <a href="#" style="text-decoration: none;" >
+        <strong class="text-warning">The providers</strong>
+      
+    </p>
+  </a>
+
+    
+  </div>
+  <div class="col-md-5 col-lg-4 ">
+    <div class="text-center text-md-right">
+      <h5 class="text-uppercase mb-4 font-weight-bold text-wrapping">Follow Us</h5>
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item">
+          <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-square-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-solid fa-globe"></i></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</footer>
+
+  
+
+
+
+<script src="https://kit.fontawesome.com/d53d2b527f.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+</body>
+</html>

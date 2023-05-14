@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* nav-bar */
+
+.navbar{
+  background-color: #020024;
+}
+.nav-item{
+  padding: 0px 15px;
+}
+.navbar-brand{
+  color:#fff;
+}
+.navbar .nav-link:hover{
+  color: #ffc107;
+}
+
+.nav-link{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.fa-house,.fa-user,.fa-address-card{
+  font-size: 14px;
+  
+}
+.fa-bell-concierge,.fa-book-open-reader{
+  font-size: 16px;
+}
+.navbar .form-control:focus{
+  box-shadow: none;
+    outline: 3px solid #ffc107;
+}
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar a:hover {
+  color: #ffc107 !important;
+}
+.carousel-indicators h1{
+ color: #f9f3f3;
+ z-index: -1;
+ padding-left: 100px;
+ margin-top: -750px;
+}
+.carousel-indicators text-inside{
+  color: #f9f3f3;
+ z-index: -1;
+ padding-right: 200px;
+ margin-top: -750px;
+
+ }
+
+/* .box{
+  width: 200px;
+  height: 200px;
+  box-shadow: 16px 14px 20px #020024;
+  border-radius: 10px;
+  
+}
+ */
+.box::before{
+  content: "";
+  background-image: conic-gradient(
+    #ffc107 20deg,transparent 120deg
+  );
+}
